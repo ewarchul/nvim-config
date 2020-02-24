@@ -1,0 +1,12 @@
+{
+   "dependencies": {
+     "coc-clangd": ">=0.2.1",
+     "coc-elixir": ">=0.2.3",
+     "coc-json": ">=1.2.4",
+     "coc-r-lsp": ">=1.1.1",
+     "coc-texlab": ">=1.9.10",
+     "coc-xml": ">=1.10.0",
+     "coc-yaml": ">=1.0.3"
+   } 
+}
+
