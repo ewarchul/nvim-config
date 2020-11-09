@@ -18,7 +18,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'scrooloose/nerdtree'
 Plug 'dracula/vim'
 Plug 'preservim/nerdcommenter'
+Plug 'gruvbox-community/gruvbox'
 Plug 'ryanoasis/vim-devicons'
+Plug 'FooSoft/vim-argwrap'
 Plug 'junegunn/goyo.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'luochen1990/rainbow'
@@ -42,6 +44,7 @@ let g:fzf_action = {
 
 let g:coc_global_extensions = [ 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-r-lsp']
 
+nnoremap <C-\> :ArgWrap<CR>
 
 let g:rainbow_active = 1
 
@@ -50,4 +53,5 @@ let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
 let g:NERDTreeStatusline = ''
 
-colorscheme dracula
+set background=dark
+color gruvbox
