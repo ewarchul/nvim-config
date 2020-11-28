@@ -22,10 +22,12 @@ Plug 'alx741/vim-hindent'
 Plug 'FooSoft/vim-argwrap'
 Plug 'gruvbox-community/gruvbox'
 Plug 'preservim/nerdcommenter'
+Plug 'gruvbox-community/gruvbox'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Shougo/deoplete.nvim'
 Plug 'deoplete-plugins/deoplete-clang'
 Plug 'neomake/neomake'
+Plug 'FooSoft/vim-argwrap'
 Plug 'junegunn/goyo.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'luochen1990/rainbow'
@@ -51,6 +53,7 @@ nnoremap <C-\> :ArgWrap<CR>
 let g:coc_global_extensions = [ 'coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-r-lsp']
 
 nnoremap <silent> <leader>a :ArgWrap<CR>
+nnoremap <C-\> :ArgWrap<CR>
 
 let g:rainbow_active = 1
 
@@ -65,7 +68,6 @@ let g:neoformat_cpp_clangformat = {
 \}
 let g:neoformat_enabled_cpp = ['clangformat']
 let g:neoformat_enabled_c = ['clangformat']
-
 
 set background=dark
 color gruvbox
